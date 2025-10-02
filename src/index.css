@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.font-norican {
+  font-family: "Norican", cursive;
+}
