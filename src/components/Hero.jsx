@@ -3,12 +3,14 @@ import pizzaHero from "../assets/images/hero-pic.png";
 
 const Hero = () => {
   return (
-    <section className="relative w-full">
-      <img
-        src={pizzaHero}
-        alt="Delicious Pizza"
-        className="w-full h-[517px] object-cover"
-      />
+    <section className="relative w-full flex justify-center">
+      <div className="w-full h-[517px] shadow-[0_10px_25px_rgba(0,0,0,0.5)]">
+        <img
+          src={pizzaHero}
+          alt="Delicious Pizza"
+          className="w-full h-full object-cover"
+        />
+      </div>
 
       <div
         className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
