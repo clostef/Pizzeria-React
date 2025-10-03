@@ -13,7 +13,7 @@ const AboutUs = () => {
             <img
               src={aboutImage}
               alt="About us"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-xl"
             />
           </div>
         </div>
