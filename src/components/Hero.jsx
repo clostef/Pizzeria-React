@@ -4,12 +4,14 @@ import pizzaHero from "../assets/images/hero-pic.png";
 const Hero = () => {
   return (
     <section className="relative w-full flex justify-center">
-      <div className="w-full h-[517px] shadow-[0_10px_25px_rgba(0,0,0,0.5)]">
+      <div className="w-full h-[517px] relative shadow-[0_10px_25px_rgba(0,0,0,0.5)] overflow-hidden">
         <img
           src={pizzaHero}
           alt="Delicious Pizza"
           className="w-full h-full object-cover"
         />
+
+        <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
 
       <div

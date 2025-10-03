@@ -5,7 +5,7 @@ const FindUs = () => {
   return (
     <section
       id="find"
-      className="w-full h-[991px] md:h-[559px] bg-[#D9D9D9] flex items-center justify-center px-4 py-8 md:py-0"
+      className="w-full h-[991px] md:h-[559px] bg-[#D9D9D9] flex items-center justify-center px-4 py-8 md:py-0 overflow-x-hidden"
     >
       <div className="flex flex-col md:flex-row items-center justify-center gap-16 max-w-6xl w-full mx-auto">
         <div className="flex flex-col gap-6 justify-center">
