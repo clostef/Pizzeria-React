@@ -97,7 +97,10 @@ const Menu = () => {
   const [activeTab, setActiveTab] = useState("Pizzas");
 
   return (
-    <section id="menu" className="relative w-full h-[674px] overflow-x-hidden">
+    <section
+      id="menu"
+      className="relative w-full h-[674px] overflow-x-hidden shadow-[0_10px_25px_rgba(0,0,0,0.5)]"
+    >
       <img
         src={menuImage}
         alt="Our Menu"
