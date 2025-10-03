@@ -3,3 +3,26 @@
 .font-norican {
   font-family: "Norican", cursive;
 }
+
+.scrollable-cards {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.scrollable-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.scrollable-cards::-webkit-scrollbar-thumb {
+  background-color: #a0aec0;
+  border-radius: 4px;
+}
+
+.scrollable-cards::-webkit-scrollbar-track {
+  background: #edf2f7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
