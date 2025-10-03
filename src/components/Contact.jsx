@@ -19,7 +19,6 @@ const Footer = () => {
       <div className="absolute inset-0 bg-black opacity-40"></div>
 
       <div className="relative flex flex-col items-center gap-8">
-        {/* Logo + Nom */}
         <div className="flex flex-col items-center gap-4 mb-12 md:flex-row md:items-center md:gap-4 md:mb-8">
           <img src={logo} alt="logo" className="w-[120px] h-auto" />
           <h2 className="text-white font-bold text-4xl md:text-5xl uppercase tracking-wide text-center md:text-left">
@@ -27,7 +26,6 @@ const Footer = () => {
           </h2>
         </div>
 
-        {/* Réseaux sociaux */}
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-8">
           <a href="https://facebook.com" target="_blank" rel="noreferrer">
             <img
